@@ -1,4 +1,4 @@
-An implementation of lodash library with features es2019 in Typescript.
+An implementation of lodash library with features es2019 in Typescript. [ very much a WIP ]
 
 ##Design Principles
 

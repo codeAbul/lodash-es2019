@@ -1,7 +1,25 @@
 interface DropRightWhileArgs<T> {
   array: T[];
-  predicateFn?: (x: T) => boolean;
+  predicateFn?: (x: T, index?:number, array?:T[]) => boolean;
 }
+
+/**
+ * Creates a slice of array excluding elements dropped from the end.
+ * Elements are dropped until predicate returns falsey.
+ * The predicate is invoked with three arguments: (value, index, array).
+ * var users = [
+ { 'user': 'barney',  'active': true },
+ { 'user': 'fred',    'active': false },
+ { 'user': 'pebbles', 'active': false }
+ ];
+ dropRightWhile({array:users, predicate: function(o) { return !o.active; }));
+ // => objects for ['barney']
+
+ *
+ * @param array
+ * @param predicateFn
+ */
+
 
 function dropRightWhile<T>({
   array,
