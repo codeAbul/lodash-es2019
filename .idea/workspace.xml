@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0dadb3c-0352-4bc4-b68b-f6b5f731c7cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/functions/arrays/dropWhile/__tests__/dropWhile.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions/arrays/dropWhile/dropWhile.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functions/arrays/dropRightWhile/dropRightWhile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions/arrays/dropRightWhile/dropRightWhile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+  </component>
+  <component name="RunManager">
+    <configuration name="dropRightFn" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/functions/arrays/dropWhile/__tests__/dropWhile.test.ts" />
+      <test-names>
+        <test-name value="dropRightFn" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.dropRightFn" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -45,5 +69,23 @@
   </component>
   <component name="TaskManager">
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1636" height="293" key="GridCell.Tab.0.bottom" timestamp="1579324935063">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579324935063" />
+    <state width="1636" height="293" key="GridCell.Tab.0.center" timestamp="1579324935054">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="293" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579324935054" />
+    <state width="1636" height="293" key="GridCell.Tab.0.left" timestamp="1579324935050">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="293" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579324935050" />
+    <state width="1636" height="293" key="GridCell.Tab.0.right" timestamp="1579324935059">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="293" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579324935059" />
   </component>
 </project>
