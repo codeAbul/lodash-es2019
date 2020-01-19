@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a0dadb3c-0352-4bc4-b68b-f6b5f731c7cc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/functions/arrays/dropWhile/__tests__/dropWhile.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/functions/arrays/dropWhile/dropWhile.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions/arrays/fill/__tests__/fill.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functions/arrays/fill/fill.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,34 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.Fill">
+    <configuration name="Fill" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/functions/arrays/fill/__tests__/fill.test.ts" />
+      <test-names>
+        <test-name value="Fill" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Fill.Fills the whole array when start and end are not mentioned" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/functions/arrays/fill/__tests__/fill.test.ts" />
+      <test-names>
+        <test-name value="Fill" />
+        <test-name value="Fills the whole array when start and end are not mentioned" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="dropRightFn" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -48,6 +76,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Fill" />
+        <item itemvalue="Jest.Fill.Fills the whole array when start and end are not mentioned" />
         <item itemvalue="Jest.dropRightFn" />
       </list>
     </recent_temporary>
@@ -71,21 +101,77 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1636" height="293" key="GridCell.Tab.0.bottom" timestamp="1579324935063">
+    <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1579426395062">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="100" y="100" width="1480" height="850" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1680.972@0.23.1680.972" timestamp="1579426395062" />
+    <state width="539" height="466" key="DebuggerActiveHint" timestamp="1579426728746">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579324935063" />
-    <state width="1636" height="293" key="GridCell.Tab.0.center" timestamp="1579324935054">
+    <state width="539" height="466" key="DebuggerActiveHint/0.0.1680.1050@0.0.1680.1050" timestamp="1579426728746" />
+    <state width="1636" height="293" key="GridCell.Tab.0.bottom" timestamp="1579427164111">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="293" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579324935054" />
-    <state width="1636" height="293" key="GridCell.Tab.0.left" timestamp="1579324935050">
+    <state width="1636" height="293" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579427164111" />
+    <state width="1636" height="293" key="GridCell.Tab.0.center" timestamp="1579427164104">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="293" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579324935050" />
-    <state width="1636" height="293" key="GridCell.Tab.0.right" timestamp="1579324935059">
+    <state width="1636" height="293" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579427164104" />
+    <state width="1636" height="293" key="GridCell.Tab.0.left" timestamp="1579427164100">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1636" height="293" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579324935059" />
+    <state width="1636" height="293" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579427164100" />
+    <state width="1636" height="293" key="GridCell.Tab.0.right" timestamp="1579427164108">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="293" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579427164108" />
+    <state width="1636" height="363" key="GridCell.Tab.1.bottom" timestamp="1579426930398">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930398" />
+    <state width="1636" height="363" key="GridCell.Tab.1.center" timestamp="1579426930392">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930392" />
+    <state width="1636" height="363" key="GridCell.Tab.1.left" timestamp="1579426930388">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930388" />
+    <state width="1636" height="363" key="GridCell.Tab.1.right" timestamp="1579426930395">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930395" />
+    <state width="1636" height="363" key="GridCell.Tab.2.bottom" timestamp="1579426930409">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930409" />
+    <state width="1636" height="363" key="GridCell.Tab.2.center" timestamp="1579426930403">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930403" />
+    <state width="1636" height="363" key="GridCell.Tab.2.left" timestamp="1579426930401">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930401" />
+    <state width="1636" height="363" key="GridCell.Tab.2.right" timestamp="1579426930407">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930407" />
+    <state width="1636" height="363" key="GridCell.Tab.3.bottom" timestamp="1579426930421">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.3.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930421" />
+    <state width="1636" height="363" key="GridCell.Tab.3.center" timestamp="1579426930415">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.3.center/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930415" />
+    <state width="1636" height="363" key="GridCell.Tab.3.left" timestamp="1579426930412">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.3.left/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930412" />
+    <state width="1636" height="363" key="GridCell.Tab.3.right" timestamp="1579426930418">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="363" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1579426930418" />
   </component>
 </project>
